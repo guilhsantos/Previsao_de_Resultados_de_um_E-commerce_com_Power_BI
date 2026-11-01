@@ -1,42 +1,36 @@
-# Previsão de Resultados de um E-commerce com Power BI
+# Painel de vendas e clientes de e-commerce (Power BI)
 
-## Este projeto consiste na criação de um painel gerencial utilizando Power BI para prever os resultados de faturamento de um e-commerce e fornecer recomendações para melhorar os resultados.
+Painel em Power BI que mostra como o e-commerce está vendendo e quem é o cliente, para projetar o faturamento e recomendar ações que melhorem o resultado.
 
-### Ferramentas Utilizadas
+| Visão da compra | Visão do cliente |
+|---|---|
+| ![Vendas](Print_Vendas.png) | ![Clientes](Print_Clientes.png) |
 
-•	Power BI: Ferramenta de visualização de dados utilizada para criar o dashboard.
+## Problema
 
-•	Excel: Utilizado para preparar e organizar os datasets.
+Vendas e cadastro de clientes estavam em bases separadas, então não dava para responder perguntas simples: quanto vendemos por mês, em que categoria, para quem e por qual canal.
 
-•	Figma: Utilizado para criar um layout elegante para o dashboard.
+## Solução
 
-### Desenvolvimento
-- Importação dos Dados
+Relacionei as tabelas de vendas e de clientes no Power BI e montei duas páginas com layout desenhado no Figma.
 
-  Importei as bases de dados de vendas e informações dos clientes para o Power BI.
-- Modelagem dos Dados
+- **Cartões:** quantidade de vendas, faturamento com e sem frete, número de clientes e renda média.
+- **Linhas:** quantidade e valor de vendas por mês.
+- **Barras:** vendas por categoria, faixa etária e faixa de renda.
+- **Filtros:** bandeira, estado, canal, departamento, idade, renda e estado de nascimento.
 
-  Criei relações entre as tabelas de vendas e clientes para facilitar a análise.
-  
-  Calculei a quantidade total e o valor total de vendas, além de outras métricas relevantes.
-- Criação do Dashboard
+## Resultado
 
-  Utilizei o layout criado no Figma para organizar os gráficos e facilitar a visualização.
-  
-  Dividi o dashboard em duas páginas: Visão do Cliente e Visão da Compra.
-- Gráficos e Visualizações
+Leitura de faturamento e perfil de cliente em qualquer recorte, que serviu de base para as recomendações apresentadas em `Desafio1_GS.pdf`. Desafio da formação Cientista de Dados (DNC), concluído com nota máxima.
 
-  Cartões: Quantidade de vendas, valor total de vendas (com e sem frete), quantidade de clientes, média de renda dos clientes.
+## Como abrir
 
-  Gráficos de Linhas: Contagem e valor total de vendas por mês.
+Baixe `Desafio1_GS.pbix` e abra no Power BI Desktop. A base está em `Base de dados desafio.xlsx`.
 
-  Gráficos de Barras: Quantidade e valor total de vendas por categoria, distribuição de idades e rendas dos clientes.
+## Stack
 
-  Filtros: Bandeira, estado, canal de venda, departamento, idade, faixa de renda, estado de nascimento.
-- Formatação
+Power BI · Excel · Figma
 
-  Ajustei os formatos dos números e adicionei filtros necessários para facilitar a análise dos dados.
+---
 
-### Conclusão
-
-O projeto foi concluído com sucesso, atingindo 100% de aproveitamento. O painel gerencial criado permite à equipe de negócios monitorar os principais indicadores de desempenho e tomar decisões informadas para melhorar os resultados do e-commerce.
+Feito por [Guilherme Santos](https://portifolio-guilherme-santos.vercel.app) · [LinkedIn](https://www.linkedin.com/in/guilherme-santos-dataeng)
