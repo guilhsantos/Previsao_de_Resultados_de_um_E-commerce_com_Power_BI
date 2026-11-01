@@ -1,3 +1,5 @@
+🇧🇷 **Português** · [🇺🇸 English](README.en.md)
+
 # Painel de vendas e clientes de e-commerce (Power BI)
 
 Painel em Power BI que mostra como o e-commerce está vendendo e quem é o cliente, para projetar o faturamento e recomendar ações que melhorem o resultado.
